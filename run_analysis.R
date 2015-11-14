@@ -39,4 +39,4 @@ melt.data <- melt(descriptiveName, id = c("activityId", "activityName", "subject
 mean.data <- dcast(melt.data, activityId + activityName + subjectId ~ variable, mean)
 
 #5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
-write.table(mean.data, "./data/UCI HAR Dataset/tidyData.txt")
+write.table(mean.data, "./tidyData.txt", row.name = FALSE, sep = "\t")
