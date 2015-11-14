@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Getting and Cleaning Data Peer Assessment
 ##Original Data
 A full description is available at the site where the data was obtained: 
@@ -28,3 +29,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 9. Convert data by "melt" and "dcast" functions from "reshape2" library into a table containing all features' mean values, and ordered by the activityName and subjectId.
 
 10. Create a new file, call "tidyData.txt" in the same folder.
+=======
+# Getting-Cleaning-Data-PA1
+>>>>>>> b66b9f4e8b7475f64f4c5dbdd437b1862909704d
